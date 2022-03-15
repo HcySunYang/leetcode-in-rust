@@ -33,6 +33,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert_eq!(Solution::reverse(1534236469), 9646324351);
+        assert_eq!(Solution::reverse(1534236469), 0);
     }
 }
