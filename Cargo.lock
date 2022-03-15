@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "reverse_integer"
 version = "0.1.0"
+
+[[package]]
+name = "string_to_integer"
+version = "0.1.0"
