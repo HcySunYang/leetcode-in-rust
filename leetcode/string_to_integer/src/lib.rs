@@ -1,3 +1,6 @@
+#![allow(overflowing_literals)]
+#![allow(dead_code)]
+
 struct Solution;
 impl Solution {
     pub fn my_atoi(s: String) -> i32 {
@@ -63,6 +66,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert_eq!(Solution::my_atoi("-91283472332".to_owned()), -239);
+        assert_eq!(Solution::my_atoi("-91283472332".to_owned()), -2147483648);
     }
 }
